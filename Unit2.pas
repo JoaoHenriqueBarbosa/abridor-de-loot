@@ -5,6 +5,7 @@ interface
 uses
   Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
   Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.StdCtrls, Vcl.Buttons;
+
 type
   TForm2 = class(TForm)
     ComboBox1: TComboBox;
@@ -27,7 +28,7 @@ uses Unit1;
 
 procedure TForm2.ComboBox1Change(Sender: TObject);
 begin
-    if (ComboBox1.Text = 'Nï¿½vel 1') or (ComboBox1.Text = 'Nï¿½vel 3') or (ComboBox1.Text = 'Nï¿½vel 4') or (ComboBox1.Text = 'Nï¿½vel 5') or (ComboBox1.Text = 'Nï¿½vel 6') or (ComboBox1.Text = 'Nï¿½vel 7') or (ComboBox1.Text = 'Nï¿½vel 8') or (ComboBox1.Text = 'Nï¿½vel 9') then
+    if (ComboBox1.Text = 'Nível 1') or (ComboBox1.Text = 'Nível 3') or (ComboBox1.Text = 'Nível 4') or (ComboBox1.Text = 'Nível 5') or (ComboBox1.Text = 'Nível 6') or (ComboBox1.Text = 'Nível 7') or (ComboBox1.Text = 'Nível 8') or (ComboBox1.Text = 'Nível 9') then
     begin
         Loot.ShowModal;
     end;
